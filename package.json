@@ -1,6 +1,6 @@
 {
-	"name": "ts-lib-starter",
-	"version": "0.0.0",
+	"name": "react-appscript-emails",
+	"version": "0.0.1",
 	"type": "module",
 	"description": "boilerplate for your next TypeScript library",
 	"main": "dist/index.cjs",
@@ -27,6 +27,8 @@
 	},
 	"devDependencies": {
 		"@sachinraja/eslint-config": "0.2.0",
+		"@types/babel__generator": "^7.6.4",
+		"@types/babel__traverse": "^7.18.3",
 		"@types/node": "18.11.9",
 		"dprint": "0.32.2",
 		"eslint": "8.27.0",
@@ -51,5 +53,15 @@
 		"splitting": true,
 		"clean": true
 	},
-	"packageManager": "pnpm@7.30.5"
+	"packageManager": "pnpm@7.30.5",
+	"dependencies": {
+		"@babel/generator": "^7.21.3",
+		"@babel/parser": "^7.21.3",
+		"@babel/traverse": "^7.21.3",
+		"@babel/types": "^7.21.3",
+		"cheerio": "^1.0.0-rc.12",
+		"react-email": "^1.7.14",
+		"tslib": "~2.4",
+		"zod": "^3.21.4"
+	}
 }
