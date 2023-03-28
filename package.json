@@ -2,7 +2,7 @@
 	"name": "react-appscript-emails",
 	"version": "0.0.1",
 	"type": "module",
-	"description": "boilerplate for your next TypeScript library",
+	"description": "Generate Google Apps Script emails with React",
 	"main": "dist/index.cjs",
 	"exports": {
 		"./package.json": "./package.json",
